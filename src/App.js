@@ -76,7 +76,11 @@ function App() {
       <div className="Todo-list">
         <form onSubmit={handleSubmit} className="form-1">
           <div className="img1">
-            <img alt="Todo-logo" src="/logo.png" className="logo" />
+            <img
+              alt="Todo-logo"
+              src="https://todo-list-frontend.ednoram.vercel.app/logo.png"
+              className="logo"
+            />
             <h1
               style={{ color: "#1D7EAF", fontSize: "40px", fontWeight: "bold" }}
             >
